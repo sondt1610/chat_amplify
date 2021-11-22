@@ -1,0 +1,17 @@
+{
+  "projectName": "livechat",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "yarn next build",
+      "StartCommand": "yarn next start"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
